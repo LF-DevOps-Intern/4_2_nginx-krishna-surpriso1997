@@ -18,11 +18,8 @@ The following steps are followed:
    ```
 
    Here , the server listens on port 82 and maps /test/ to the root of the server
-   }
 
-![test2.conf configuration file](https://github.com/LF-DevOps-Intern/4_2_nginx-krishna-surpriso1997/blob/master/4/screenshot/test2.conf.png)
-
-    ```
+   ![test2.conf configuration file](https://github.com/LF-DevOps-Intern/4_2_nginx-krishna-surpriso1997/blob/master/4/screenshot/test2.conf.png)
 
 2. create /var/www/html/test directory and index.html file inside it with the followig content:
 
@@ -36,7 +33,7 @@ The following steps are followed:
 
    ```
 
-![index.html file at /var/www/html/test](https://github.com/LF-DevOps-Intern/4_2_nginx-krishna-surpriso1997/blob/master/4/screenshot/test-html-at-var-www-html.png)
+   ![index.html file at /var/www/html/test](https://github.com/LF-DevOps-Intern/4_2_nginx-krishna-surpriso1997/blob/master/4/screenshot/test-html-at-var-www-html.png)
 
 3. Restart nginx
    nginx service is reatarted with:
@@ -48,4 +45,4 @@ The following steps are followed:
 
 4. Test in the browser
 
-    ![testing /test in localhost on port 82 in broser](https://github.com/LF-DevOps-Intern/4_2_nginx-krishna-surpriso1997/blob/master/4/screenshot/test-port-82.png)
+   ![testing /test in localhost on port 82 in broser](https://github.com/LF-DevOps-Intern/4_2_nginx-krishna-surpriso1997/blob/master/4/screenshot/test-port-82.png)
